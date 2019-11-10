@@ -1,0 +1,143 @@
+﻿.box {
+    border:1;
+    color:#ffffff;
+    position: absolute;
+    top:180px;
+    left:0px;
+    padding: 20px 0px 0px 35px;
+    margin: 140px 0 0 460px;
+    width:300px;
+    height:170px;
+    border-radius: 4px;
+}
+.result {
+    position:relative;
+    top:80px;
+    left:27%;
+    color:green;
+}
+.members p::before{
+	margin-right: .5rem;
+	content: '\201C';
+}
+.members a::after {
+	margin-left: .5rem;
+	content: '\201D';
+}
+.members p {
+    font-size:2.3rem;
+    padding-top:10px;
+    color:green;
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.5);
+}
+iframe {
+	position:relative;
+    margin-left:5px;
+}
+font {
+    color:#f00000;
+}
+#info {
+	background: #FFFFFF;
+	padding-top: 2.2rem;
+	padding-bottom: 12rem;
+	position: relative;
+	min-height:auto;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#info .h01 {
+	padding-bottom: 2.1rem;
+	margin-bottom: 3.6rem;
+	position: relative;
+	color: #252525;
+}
+#info .h01::after {
+	display: block;
+	background-color: #05bca9;
+	width: 120px;
+	height: 3px;
+	content: '\0020';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	margin-left: -60px;
+}
+#info .flex-container {
+	width: 80%;
+	max-width: 800px;
+	margin: 0 auto;
+}
+#info-flex {
+	margin: 0 0 3rem 0;
+	position: relative;
+}
+#par {
+	font-family: "raleway-medium", sans-serif;
+	font-size: 2rem;
+	line-height: 1.8;
+	color: #8d8d8d;
+    text-shadow: 0px 0px 37px rgba(0, 0, 0, 0.4);
+}
+#par::before, #par::after {
+	display: inline;
+	font-family: Arial, sans-serif;
+	color: #c7c7c7;
+	font-size: 4rem;
+	line-height: 0;
+	vertical-align: bottom;
+	position: relative;
+	top: -1.2rem;
+}
+#par::before {
+	margin-right: .3rem;
+	content: '\201C';
+}
+#par::after {
+	margin-left: .5rem;
+	content: '\201D';
+}
+#info-flex .site-logo #imgLogo {
+	width: 13rem;
+	height: 12.5rem;
+	margin: 0rem auto 1.2rem auto;
+	display: block;
+	border-radius: 50%;
+	vertical-align: middle;
+	border: 8px solid #EAEAED;
+}
+#info-flex .site-logo .site-info {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	font-family: "raleway-heavy", sans-serif;
+	font-size: 1.7rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-bottom: 3rem;
+	color: #252525;
+}
+#info-flex .site-logo .site-info span {
+	display: block;
+	font-family: "raleway-semibold", sans-serif;
+	font-size: 1.7rem;
+	line-height: 2.0rem;
+	letter-spacing: 0;
+	text-transform: none;
+	color: rgba(0, 0, 0, 0.4);
+}
+
+/*.popover {-webkit-animation: pop 1.4s ease-out .3s both;
+    -moz-animation: pop 1.4s ease-out .3s both;
+    -o-animation: pop 1.4s ease-out .3s both;
+    animation: pop 1.4s ease-out .3s both;}
+
+@-webkit-keyframes pop {
+	  from {
+		-webkit-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+		opacity: 1;
+}
+}*/
